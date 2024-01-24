@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Users</title>
+</head>
+<body>
+<table border = "1">
+    <tr>
+        <th>user index</th>
+        <th>user info</th>>
+
+    </tr>
+{%for i in range(len_users)%}
+    <tr>
+        <td>{{i}}</td>
+        <td>{{users[i]}}</td>
+    </tr>
+    {%endfor%}
+</table>
+</body>
+</html>
